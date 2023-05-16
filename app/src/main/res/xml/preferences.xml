@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2016 Tino Siegmund, Michael Wodniok
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="preferences_key_list_item_preferences"
+        android:title="@string/general_preferences">
+        <!-- opens another nested subscreen -->
+        <!--    <PreferenceScreen
+                android:key="prefs_sort_mode"
+                android:title="@string/list_sort_mode"
+                android:persistent="false"
+                >
+                <Preference
+                    android:key="sort_by_name"
+                    android:title="@string/menu_sort_by_product_name" />
+                <Preference
+                    android:key="sort_by_prio"
+                    android:title="@string/menu_sort_by_priority" />
+            </PreferenceScreen>-->
+        <PreferenceScreen android:title="@string/unit_editor">
+            <intent android:action=".view.activity.UnitEditorActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <!--<PreferenceCategory
+        android:title="@string/prefs_productlist_dialog"
+        android:key="prefs_productlist_dialog">
+        <CheckBoxPreference
+            android:key="pref_collapsed_add_new_product_view"
+            android:title="@string/collapse_add_new_product_view"
+            android:defaultValue="true"
+            />
+    </PreferenceCategory>-->
+    <PreferenceCategory
+        android:key="prefs_privacy_policy_eula_terms"
+        android:title="@string/prefs_privacy_policy_eula_terms">
+        <!--<Preference
+            android:key="privacypolicy_eula_terms"
+            android:title="@string/privacy_policy_eula_terms"
+            />-->
+        <Preference
+            android:key="open_source_licenses"
+            android:title="@string/open_source_licenses" />
+    </PreferenceCategory>
+</PreferenceScreen>

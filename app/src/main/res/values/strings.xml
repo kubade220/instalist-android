@@ -1,0 +1,136 @@
+<!--
+  ~ Copyright 2016 Tino Siegmund, Michael Wodniok
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">InstaList</string>
+    <string name="title_activity_main">InstaList</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_shopping_list_view">MainShoppingListView</string>
+
+    <string name="nav_drawer_open">Open list overview</string>
+    <string name="nav_drawer_close">Close list overview</string>
+    <string name="choose_list">Choose List</string>
+
+    <string name="menu_sort_by_product_name">Name</string>
+    <string name="menu_sort_by_amount">Amount</string>
+    <string name="action_search_product">Search Product</string>
+
+    <string name="action_add">Add</string>
+    <string name="action_save">Save</string>
+
+    <string name="product_details_product_name_hint">Product name</string>
+    <string name="product_details_tags_hint">Tags (comma separated)</string>
+    <string name="product_details_step_hint">Step (for increase/decrease buttons)</string>
+    <string name="product_details_amount_hint">Amount</string>
+    <string name="recipe_details_recipe_name">Recipe name</string>
+    <string name="recipe_details_recipe_name_hint">Name of the recipe</string>
+    <string name="recipe_details_add_ingredient">+ Ingredient</string>
+    <string name="product_list_dialog_add">Add</string>
+    <string name="product_list_dialog_cancel">Cancel</string>
+    <string name="product_list_dialog_title">Add product to list</string>
+    <string name="product_list_dialog_add_new_product">Create Product</string>
+    <string name="recipe_details_add">Add</string>
+    <string name="recipe_details_cancel">Cancel</string>
+    <string name="product_creation_fragment">Illegal amount type. Choose values greater than 0.</string>
+    <string name="shopping_list_overview_fragment_no_list_available">No list created.</string>
+    <string name="fragment_ingredient_creation_ingredient_product">Ingredient</string>
+    <string name="fragment_ingredient_creation_ingredient_amount">Amount of ingredient</string>
+    <string name="fragment_ingredient_creation_no_product_assigned">There is no product assigned, first create a new product.</string>
+    <string name="fragment_ingredient_creation_update_ingredient">Update Ingredient</string>
+    <string name="fragment_ingredient_creation_add_ingredient">Add Ingredient</string>
+    <string name="fragment_ingredient_creation_update_ingredient_title">Update ingredient of</string>
+    <string name="fragment_ingredient_creation_add_ingredient_title">Add Ingredient to</string>
+    <string name="invalid_amount">The amount must be greater than 0.0</string>
+    <string name="fragment_recipe_creation_add_recipe">Add Recipe</string>
+    <string name="fragment_recipe_creation_update_recipe">Update Recipe</string>
+    <string name="fragment_recipe_creation_add_recipe_title">Create new Recipe</string>
+    <string name="fragment_recipe_creation_update_recipe_title">Edit Recipe</string>
+    <string name="drawer_layout_custom_add_list_button">Add List</string>
+    <string name="list_exists">List already exists</string>
+    <string name="menu_sort_by_priority">Priority</string>
+    <string name="menu_sort_text">Sort</string>
+    <string name="menu_product_list_dialog_search">Search</string>
+    <string name="menu_product_list_dialog_sort_by_name">Sort by name</string>
+    <string name="menu_product_list_dialog_sort_by">Sort by</string>
+    <string name="menu_product_list_dialog_sort_by_product">Sort by product</string>
+    <string name="menu_product_list_dialog_sort_by_recipe">Sort by recipe</string>
+    <string name="menu_product_list_dialog_filter_by">Filter by</string>
+    <string name="menu_product_list_dialog_filter_by_product">Show products</string>
+    <string name="menu_product_list_dialog_filter_by_recipe">Show recipes</string>
+    <string name="menu_product_list_dialog_filter_by_all">Show all</string>
+    <string name="advanced">Advanced</string>
+    <string name="no_unit" translatable="false">-</string>
+    <string name="product_saved_okay">Product was saved.</string>
+    <string name="product_saved_fail">Product saving failed!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="add_list">Add List</string>
+    <string name="category_action">Actions on Group</string>
+    <string name="category_exists">Category already exists</string>
+    <string name="category_not_found">Category not found. (Internal Failure)</string>
+    <string name="change_of_category_of_list_failed">Move of Shopping List failed…</string>
+    <string name="collapse_add_new_product_view">Collapse Add New Product View</string>
+    <string name="create_options">Create</string>
+    <string name="create_list">Create Shopping List</string>
+    <string name="create_category">Create Category</string>
+    <string name="create_recipe">Create Recipe</string>
+    <string name="delete_category_error_category_is_default">Cannot remove category. It is the current default list. Change the default list to delete this list.</string>
+    <string name="deletion_failed">Deletion failed.</string>
+    <string name="edit">Edit</string>
+    <string name="edit_category_name">Edit Category Name</string>
+    <string name="edit_recipe">Edit Recipe</string>
+    <string name="edit_shopping_list">Edit List</string>
+    <string name="error_no_input">Please insert a text.</string>
+    <string name="error_unit_already_exists">Unit already exists</string>
+    <string name="list_sort_mode">Shopping List Sort Mode</string>
+    <string name="list_to_category_failed">Cannot move ShoppingList to Category.</string>
+    <string name="menu_add_item">Add</string>
+    <string name="menu_add_action">Add</string>
+    <string name="menu_cancel_action">Cancel</string>
+    <string name="move_category">Move to Category</string>
+    <string name="new_name">New name of ...</string>
+    <string name="new_unit">Create new unit…</string>
+    <string name="open_source_licenses">Open source licenses</string>
+    <string name="prefs_privacy_policy_eula_terms">Privacy Policy, Eula and Terms</string>
+    <string name="prefs_productlist_dialog">Productlist Dialog Preferences</string>
+    <string name="privacy_policy_eula_terms">Privacy Policy, EULA and TERMS</string>
+    <string name="read_write_shoppinglists">Read and change shopping-lists</string>
+    <string name="remove">Remove</string>
+    <string name="remove_category">Remove Category</string>
+    <string name="remove_product_question">Do you really want to remove the product named %1$s?</string>
+    <string name="remove_product_question2">The product is still used as ingredient or listed somewhere. Still delete?</string>
+    <string name="remove_unit_question">The unit is still used for some products. Do you want to delete also the products or should the products use no unit (unlinked)?</string>
+    <string name="remove_recipe_question">Do you really wan\'t to remove the recipe named %1$s?\nNote that it\'s ingredients won\'t be deleted from lists.</string>
+    <string name="remove_shopping_list">Remove Shopping List</string>
+    <string name="removed_product">removed product.</string>
+    <string name="removed_recipe">removed recipe.</string>
+    <string name="settings">Settings</string>
+    <string name="shopping_list_action">Actions on Shopping List</string>
+    <string name="shopping_list_not_found">Shopping list not found. (Internal Failure)</string>
+    <string name="shopping_list_not_choosen">No Shopping List selected</string>
+    <string name="general_preferences">Shopping List Preferences</string>
+    <string name="unit_editor">Unit Editor</string>
+    <string name="unlink">Unlink</string>
+    <string name="no_ingredients">No ingredients added to recipe.</string>
+    <string name="name_exists">Recipe name exists already.</string>
+    <string name="error_recipe_creation">Something went wrong while creating recipe.</string>
+    <string name="edit_unit">Edit Unit</string>
+    <string name="abc_no_shopping_list_selected">No Shoppinglist selected.</string>
+
+</resources>

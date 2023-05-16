@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2016 Tino Siegmund, Michael Wodniok
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <style name="InstalistTheme1.base_linear_layout_list">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/base_list_entry_height</item>
+        <item name="android:paddingLeft">@dimen/base_list_entry_padding_left</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:background">@drawable/ripple</item>
+    </style>
+
+    <style name="InstalistTheme1.linearlayout_card_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/base_list_entry_height</item>
+        <item name="android:layout_marginTop">@dimen/base_margin</item>
+        <item name="android:layout_marginLeft">@dimen/base_padding_right</item>
+        <item name="android:layout_marginRight">@dimen/base_padding_top</item>
+        <item name="android:background">@drawable/shadow_grey</item>-->
+    </style>
+    <!-- Probably for later tewaks-->
+    <style name="InstalistTheme1.expandable_list_first_linear_layout_container" parent="match_parent"></style>
+
+    <style name="InstalistTheme1.expandable_list_second_linear_layout_container" parent="match_parent"></style>
+
+    <style name="InstalistTheme1.expandable_list_sublist_first_linear_layout_container" parent="match_parent">
+        <item name="android:layout_marginLeft">@dimen/expandable_list_sublist_item_margin_left
+        </item>
+    </style>
+
+    <style name="InstalistTheme1.shadow">
+        <item name="android:layout_height">@dimen/design_appbar_elevation</item>
+        <item name="android:background">@drawable/toolbar_dropshadow</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+    <!-- -->
+
+    <dimen name="shadow_dx">2dp</dimen>
+    <dimen name="shadow_dy">2dp</dimen>
+    <dimen name="shadow_radius">4dp</dimen>
+</resources>

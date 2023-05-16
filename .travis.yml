@@ -1,0 +1,47 @@
+language: android
+env:
+    global:
+        - ANDROID_ABI=armeabi-v7a
+        - ANDROID_TAG=google_apis
+
+sudo: required
+
+jdk:
+  - oraclejdk8
+
+install: true
+
+script:
+  - sudo apt-get update && sudo apt-get install oracle-java8-installer
+  - java -version
+
+android:
+    jdk:
+      - oraclejdk8
+    components:
+      - tools # to get the new `repository-11.xml`
+      - tools # to install Android SDK tools 25.1.x (x = 6 right now)
+      # the current build tools version used by this project
+      - build-tools-24.0.2
+      # the sdk used to compile the project
+      - android-24
+      - extra-android-support
+      - extra-android-m2repository
+#      - sys-img-armeabi-v7a-google_apis-23
+    licenses:
+      - 'android-sdk-preview-license-.+'
+      - 'android-sdk-license-.+'
+      - 'google-gdk-license-.+'
+
+    before_install:
+      - chmod +x gradlew
+      
+# Emulator Management: Create, Start and Wait
+#before_script:
+#  - echo no | android create avd --force -n test -t "android-23" --abi $ANDROID_ABI --tag $ANDROID_TAG
+#  - emulator -avd test -no-skin -no-audio -no-window &
+#  - android-wait-for-emulator
+
+script: 
+  - ./gradlew assembleDebug -PpreDexEnable=false -Pcom.android.build.threadPoolSize=1 -Dorg.gradle.parallel=false -Dorg.gradle.jvmargs="-Xms1024m -Xmx1536m" -Dorg.gradle.daemon=false
+#  - ./gradlew connectedAndroidTest -PdisablePreDex -Dorg.gradle.daemon=false --console=plain

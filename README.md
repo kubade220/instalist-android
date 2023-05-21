@@ -24,9 +24,3 @@ See app/build.gradle for an always up to date dependency-information.
 * Android Support Library by Google ([Source Code](https://android.googlesource.com/platform/frameworks/support.git/), Apache2-license)
     * RecyclerView-library
     * Design-library
-
-##My Test Documentation
-
-Exploratory testing of application 
-Test Cases 
-Bug report 

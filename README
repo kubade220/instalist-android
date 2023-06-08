@@ -1,9 +1,24 @@
-### instalist-android
+### Project plus instalist-android app  | Calculator mobile | iOS app
 
 ### About the project
+1. Test the app on the emulator and physical device
+5. application errors
 
-#### Test environment 
+The project also contain
 
-#### Test objects
-
-#### Main area of testing
+Test environment
+Android emulator
+physical device
+Android development
+Android pre-release
+Test objects
+* installist app 
+* Calculator mobile
+* iOS app
+Main area of testing
+* Test the app on the emulator
+* Test the app on the physical device
+* Test the mobile application in its entirety
+* Test your app from sources (development, pre-release) and store app (production, available to all customers)
+* Calculator mobile (application test plan)
+*

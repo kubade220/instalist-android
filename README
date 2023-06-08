@@ -1,8 +1,20 @@
 ### Project plus instalist-android app  | Calculator mobile | iOS app
 
-### About the project
-1. Test the app on the emulator and physical device
-5. application errors
+### Scenarios
+
+
+Let's assume that your Project Manager came to you and said: Please test this mobile application in its entirety. This is an application from a new client and we need to check how many bugs we will have to fix before we take it over. Where will you start your tests? You have 2 days to test the entire application. This is an application for the Android platform.
+
+### Task 5 
+
+Find 3 errors in the mobile application of your choice and describe them.
+
+### Task 6
+The application is in the early stages of development. It only contains: Login field, Password field and Login button. How will you test the application on the phone and on the tablet?
+
+###Task 7
+
+You have to test an iOS application that works on all Apple phones and tablets. However, due to time constraints, you'll need to choose two devices to run the tests on. What devices will you choose for testing and why?
 
 The project also contain
 
